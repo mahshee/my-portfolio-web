@@ -1,0 +1,105 @@
+/*inja style kolli kole safhe ro taarif mikonim*/
+
+/*h1 {
+	font-family:  "Arial", "Comic Sans MS", sans-serif ;
+	/*mitooni font jaygozin behesh bedi ke age avali load nashod bere soraghe badi, va hamishe akhari bayad in shekli neveshte beshe*/
+	/*Comment in css
+	
+
+	font-size: 20px;
+
+}
+h2 {
+	font-family: "Arial" ;
+	font-size: 15px;
+
+}
+.images {
+	width: 300px;
+	background: red;
+}
+
+*/
+
+*{
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+}
+
+.main {
+	padding: 10px
+}
+
+
+h1, h2 {
+	margin: 0;
+}
+a, a:visited {
+	text-decoration: none;
+	text-decoration-color: black;
+	color: black;
+}
+a:hover {
+	text-decoration: line-through;
+	text-decoration-color: black;
+}
+
+nav {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+body {
+	font-family: "corbel";
+	font-size: 12px;
+	text-shadow: black    ;
+	font-style: none;
+	background-color: white;
+	background-image: url(../images/pic1.jpg);
+	padding: 50px;
+	margin:40px;
+	float: left;
+}
+header{
+
+	color: black;
+	position: absolute;
+	top: 40px;
+	left: 70px;
+
+
+}
+
+nav.menu {
+	position: fixed;
+	top:30px;
+	right:60px;
+	padding: 2em;
+}
+.menu img {
+	float: right;
+}
+nav ul{
+	font-size: 17px;
+	margin-right: 50px;
+	margin-top: 50px;
+	padding: 0px;
+	font-style: italic;
+	list-style: none;
+	display: none;
+}
+nav:hover ul {
+	display: inherit;
+}
+nav ul li{
+	margin-right: 1em;
+	text-decoration-color: black;
+
+}
+
+p{
+	padding: 40px;
+	margin-top: 20px;
+	text-decoration-color: black  ;
+}
+
